@@ -1,0 +1,28 @@
+#searchButton{
+	background-color: #4cd3c2;
+	color:black;
+	font-weight: 500;
+	border-color: white;
+}
+#searchButton:hover{
+	cursor: pointer;
+	background-color:#d7fffd;
+	border-color:#65587f;
+	color: #363636;
+	font-weight: 600;
+}
+
+#xButton{
+	margin-right:3px;
+	background-color:#481380;
+	border-color:#fbcffc;
+	color: white;
+}
+#xButton:hover{
+	cursor: pointer;
+	background-color:#f3d1f4;
+	color: black;
+	border-color:#f5fcc1;
+	font-weight: 600;
+}
+
