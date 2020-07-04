@@ -14,6 +14,16 @@ sButton.addEventListener("click", () =>
 		getAPI(sInput)
 	})
 
+let input = document.querySelector("#searchInput")
+input.addEventListener("keyup", (event) => {
+  if (event.keyCode === 13) {
+
+    const sInput = document.querySelector("#searchInput").value
+    content.innerHTML = `<center><div class="spinner-border text-dark" role="status"><center>`
+	getAPI(sInput)
+  }
+})
+
 const getAPI = (key) => {
 	fetch(`${url}${key}`).then((respone) => {
 		
